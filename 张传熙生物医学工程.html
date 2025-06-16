@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张传熙生物医学工程留学规划 | 2025-2027完整版</title>
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --success-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            --warning-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            --dark-bg: #0f0f23;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.8);
+            --text-muted: rgba(255, 255, 255, 0.6);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --shadow-primary: 0 20px 40px rgba(0, 0, 0, 0.3);
+            --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.2);
+            --border-radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(ellipse at center, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+        }
+
+        .background-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .header {
+            text-align: center;
+            padding: 80px 0 60px;
+            background: var(--primary-gradient);
+            margin-bottom: 60px;
+            border-radius: 0 0 40px 40px;
+            box-shadow: var(--shadow-primary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .header h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            letter-spacing: -0.02em;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+
+        .header .date {
+            font-size: 1rem;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+
+        .section {
+            margin-bottom: 60px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--accent-gradient);
+            border-radius: 2px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: var(--primary-gradient);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .card:hover::before {
+            left: 0;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: var(--text-primary);
+            min-width: 120px;
+            margin-right: 20px;
+        }
+
+        .info-value {
+            color: var(--text-secondary);
+            flex: 1;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--primary-gradient);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-left: 20px;
+            transition: var(--transition);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -31px;
+            top: 25px;
+            width: 12px;
+            height: 12px;
+            background: var(--primary-gradient);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--dark-bg);
+        }
+
+        .timeline-item:hover {
+            transform: translateX(10px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .timeline-date {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 15px;
+            background: var(--secondary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .timeline-content h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .timeline-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline-content li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .timeline-content li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #4facfe;
+            font-weight: bold;
+        }
+
+        .school-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .school-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .school-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--success-gradient);
+        }
+
+        .school-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        .school-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .school-info {
+            margin-bottom: 20px;
+        }
+
+        .school-info div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .school-info .label {
+            color: var(--text-muted);
+        }
+
+        .school-info .value {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .requirements {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .requirements h5 {
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .requirements li {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .requirements li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #4facfe;
+        }
+
+        .strategy-section {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .strategy-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            background: var(--warning-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .score-range {
+            background: rgba(255, 255, 255, 0.03);
+            border-left: 4px solid #4facfe;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .score-range h4 {
+            color: var(--text-primary);
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .school-tier {
+            margin-bottom: 15px;
+        }
+
+        .tier-label {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        .tier-schools {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .checklist {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+        }
+
+        .checklist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #4facfe;
+            border-radius: 4px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .checkbox:hover {
+            background: rgba(79, 172, 254, 0.1);
+        }
+
+        .checkbox.checked {
+            background: var(--accent-gradient);
+            border-color: transparent;
+        }
+
+        .checkbox.checked::after {
+            content: '✓';
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .summary {
+            background: var(--primary-gradient);
+            border-radius: var(--border-radius);
+            padding: 40px;
+            text-align: center;
+            margin-top: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .summary::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite reverse;
+        }
+
+        .summary-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .summary h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .summary p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            background: var(--warning-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .header {
+                padding: 60px 0 40px;
+                margin-bottom: 40px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .school-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline {
+                padding-left: 20px;
+            }
+            
+            .timeline-item {
+                margin-left: 10px;
+            }
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+
+        .scroll-progress {
+            height: 100%;
+            background: var(--primary-gradient);
+            width: 0%;
+            transition: width 0.1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>张传熙生物医学工程留学规划</h1>
+                <div class="subtitle">作者：王子飏(Jacky)</div>
+                <div class="date">June 2025</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2 class="section-title">一、学生个人情况分析</h2>
+            
+            <div class="info-grid">
+                <div class="card">
+                    <h3 class="card-title">基本信息</h3>
+                    <div class="info-item">
+                        <span class="info-label">姓名</span>
+                        <span class="info-value">张传熙 (Trancen ZHANG)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">就读学校</span>
+                        <span class="info-value">北京人大附中东坝国际部</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">年级</span>
+                        <span class="info-value">高二在读（2025年9月升高三）</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">出生年份</span>
+                        <span class="info-value">2008年（目前17岁）</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">累计GPA</span>
+                        <span class="info-value">3.76/4.0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">雅思成绩</span>
+                        <span class="info-value">6.5分</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">申请目标</h3>
+                    <div class="info-item">
+                        <span class="info-label">目标专业</span>
+                        <span class="info-value">生物医学工程</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">申请时间</span>
+                        <span class="info-value">2026年9月开始递交</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">入学时间</span>
+                        <span class="info-value">2027年秋季</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">主申国家</span>
+                        <span class="info-value">爱尔兰、荷兰</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">次选国家</span>
+                        <span class="info-value">英国、瑞士</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">AP准备</span>
+                        <span class="info-value">5门（历史、经济、心理学、物理）</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-grid">
+                <div class="card">
+                    <h3 class="card-title">优势分析</h3>
+                    <ul>
+                        <li>国际部背景，英语基础扎实，雅思已达6.5分</li>
+                        <li>GPA 3.76属于中上水平，有提升空间</li>
+                        <li>目标专业就业前景优秀，薪资回报高</li>
+                        <li>时间充裕，距离申请还有1年4个月准备时间</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">劣势分析</h3>
+                    <ul>
+                        <li>GPA需要提升至3.9+才能冲击顶尖学校</li>
+                        <li>缺乏SAT成绩，限制了爱尔兰、英国、瑞士学校选择</li>
+                        <li>SAT需要从零开始学习，时间紧张</li>
+                        <li>背景提升活动需要加强，缺乏生物医学相关经历</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">二、完整时间规划（2025年6月-2027年8月）</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025年6月-8月：暑期冲刺阶段</div>
+                    <div class="timeline-content">
+                        <h4>6月16日-30日：基础准备</h4>
+                        <ul>
+                            <li>制定高三GPA提升计划，目标3.9+</li>
+                            <li>开始雅思强化训练，目标从6.5提升到7.0</li>
+                            <li>开始SAT基础学习，每周投入15小时</li>
+                            <li>联系医疗器械公司或生物医学相关实习机会</li>
+                        </ul>
+
+                        <h4>7月1日-31日：语言考试冲刺</h4>
+                        <ul>
+                            <li>7月6日：第一次雅思考试（目标7.0分）</li>
+                            <li>7月20日：第二次雅思考试（备选）</li>
+                            <li>SAT基础学习：每周投入15小时</li>
+                            <li>完成第一轮院校调研</li>
+                        </ul>
+
+                        <h4>8月1日-31日：SAT强化训练</h4>
+                        <ul>
+                            <li>SAT强化学习：每周投入20小时</li>
+                            <li>数学部分重点突破，目标750+</li>
+                            <li>参加生物医学相关暑期项目/实习</li>
+                            <li>参与科研项目，争取发表论文</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2025年9月-12月：高三上学期申请准备</div>
+                    <div class="timeline-content">
+                        <h4>9月：成绩提升与考试准备</h4>
+                        <ul>
+                            <li>高三上学期开学，全力冲刺GPA 3.9+</li>
+                            <li>9月14日：第三次雅思考试（冲刺7.5分）</li>
+                            <li>SAT冲刺准备：每周投入12小时</li>
+                            <li>完成推荐信收集和初稿</li>
+                        </ul>
+
+                        <h4>10月：第一次SAT考试</h4>
+                        <ul>
+                            <li>10月5日：第一次SAT考试（目标1400+）</li>
+                            <li>完成个人陈述第二稿修改</li>
+                            <li>准备详细的课外活动清单</li>
+                            <li>根据SAT成绩调整学校申请策略</li>
+                        </ul>
+
+                        <h4>12月：最后冲刺</h4>
+                        <ul>
+                            <li>12月7日：第二次SAT考试（目标1500+）</li>
+                            <li>12月14日：第四次雅思考试（冲刺7.5分）</li>
+                            <li>完成所有申请材料终稿</li>
+                            <li>准备申请费用</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2026年1月-8月：申请材料完善</div>
+                    <div class="timeline-content">
+                        <h4>3月：最后准备</h4>
+                        <ul>
+                            <li>3月8日：第三次SAT考试（冲刺1550+）</li>
+                            <li>5月：第五次雅思考试（最后机会）</li>
+                            <li>5月第一周：2026年AP考试</li>
+                            <li>确认所有推荐信完成</li>
+                        </ul>
+
+                        <h4>6月-8月：申请系统熟悉</h4>
+                        <ul>
+                            <li>熟悉各国申请系统操作</li>
+                            <li>准备所有申请材料的电子版和纸质版</li>
+                            <li>最后确认申请学校名单</li>
+                            <li>完成所有学校的个人陈述终稿</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2026年9月-12月：申请提交阶段</div>
+                    <div class="timeline-content">
+                        
+                        <ul>
+                            <li>10月1日-15日：提交荷兰大学申请（截止日期2027年1月15日）</li>
+                            <li>10月15日-11月15日：提交爱尔兰大学申请（截止日期2027年1月31日）</li>
+                            <li>11月1日-15日：提交英国大学申请（UCAS截止日期2027年1月15日）</li>
+                            <li>11月15日-12月15日：提交瑞士大学申请（截止日期2027年2月28日）</li>
+                            <li>确认所有材料已成功提交并收到确认</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2027年1月-8月：等待与决策阶段</div>
+                    <div class="timeline-content">
+                        <h4>1月-3月：申请跟进</h4>
+                        <ul>
+                            <li>跟进所有申请状态</li>
+                            <li>准备可能的面试（主要是英国学校）</li>
+                            <li>补充材料（如学校要求）</li>
+                            <li>保持与招生办联系</li>
+                        </ul>
+
+                        <h4>4月-5月：录取决策</h4>
+                        <ul>
+                            <li>比较所有录取结果</li>
+                            <li>综合考虑学费、就业前景、移民政策</li>
+                            <li>咨询家长和老师意见</li>
+                            <li>确定最终选择并接受offer</li>
+                        </ul>
+
+                        <h4>6月-8月：行前准备</h4>
+                        <ul>
+                            <li>申请学生签证，准备签证面试材料</li>
+                            <li>安排住宿（宿舍或租房）</li>
+                            <li>购买医疗保险和机票</li>
+                            <li>参加行前说明会，准备行李和生活用品</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">三、SAT学习详细规划</h2>
+            
+            <div class="card">
+                <h3 class="card-title">阶段化学习计划</h3>
+                
+                <div class="strategy-section">
+                    <div class="strategy-title">阶段一：基础学习（2025年6月-8月）</div>
+                    <div class="score-range">
+                        <h4>目标：从零基础到1300+水平</h4>
+                        <div class="school-tier">
+                            <div class="tier-label">时间投入：</div>
+                            <div class="tier-schools">每周15-20小时</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">6月16日-7月15日：基础知识建立</div>
+                            <div class="tier-schools">
+                                • 数学部分：复习代数、几何、统计基础知识<br>
+                                • 阅读部分：词汇积累（每天50个核心词汇）<br>
+                                • 写作部分：语法规则学习和练习<br>
+                                • 模拟测试：每周1套完整模拟题
+                            </div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">7月16日-8月31日：强化训练</div>
+                            <div class="tier-schools">
+                                • 数学部分：专项练习，目标700+<br>
+                                • 阅读部分：阅读技巧训练，文章类型熟悉<br>
+                                • 写作部分：作文结构和论证技巧<br>
+                                • 模拟测试：每周2套完整模拟题
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">阶段二：冲刺准备（2025年9月-10月）</div>
+                    <div class="score-range">
+                        <h4>目标：冲刺1400+</h4>
+                        <div class="school-tier">
+                            <div class="tier-label">时间投入：</div>
+                            <div class="tier-schools">每周12小时</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">9月1日-10月4日：考试技巧与错题强化</div>
+                            <div class="tier-schools">
+                                • 重点突破薄弱环节<br>
+                                • 时间管理训练<br>
+                                • 考试心理调节<br>
+                                • 每周3套完整模拟题
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">阶段三：成绩提升（2025年11月-12月）</div>
+                    <div class="score-range">
+                        <h4>目标：从1400+冲刺1500+</h4>
+                        <div class="school-tier">
+                            <div class="tier-label">时间投入：</div>
+                            <div class="tier-schools">每周10小时</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">基于10月考试结果制定针对性学习计划</div>
+                            <div class="tier-schools">
+                                • 分析错题类型和原因<br>
+                                • 专项突破薄弱环节<br>
+                                • 保持做题手感
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">阶段四：最后冲刺（2026年1月-3月）</div>
+                    <div class="score-range">
+                        <h4>目标：冲刺1550+（如需要）</h4>
+                        <div class="school-tier">
+                            <div class="tier-label">时间投入：</div>
+                            <div class="tier-schools">每周8小时</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">精准提升和考试准备</div>
+                            <div class="tier-schools">
+                                • 高难度题型练习<br>
+                                • 保持最佳考试状态<br>
+                                • 心理调节和应试技巧
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">四、目标学校详细信息</h2>
+            
+            <div class="card">
+                <h3 class="card-title">主申请国家：荷兰</h3>
+                <div class="school-grid">
+                    <div class="school-card">
+                        <div class="school-name">代尔夫特理工大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">生物医学工程欧洲第1，QS世界第49</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日</span></div>
+                            <div><span class="label">学费：</span><span class="value">€17,310/年</span></div>
+                            <div><span class="label">就业率：</span><span class="value">98%，起薪€45,000</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.7+（建议3.9+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>AP物理/化学/微积分4+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">埃因霍温理工大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">荷兰第2，QS世界第105</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日</span></div>
+                            <div><span class="label">学费：</span><span class="value">€19,800/年</span></div>
+                            <div><span class="label">优势：</span><span class="value">飞利浦总部所在地</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.6+（建议3.8+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>AP物理/数学4+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">阿姆斯特丹大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">荷兰前3，QS世界第55</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日</span></div>
+                            <div><span class="label">学费：</span><span class="value">€12,500/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.5+（建议3.7+）</li>
+                                <li>雅思7.0（6.5）</li>
+                                <li>AP生物/化学4+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">主申请国家：爱尔兰（需要SAT）</h3>
+                <div class="school-grid">
+                    <div class="school-card">
+                        <div class="school-name">都柏林圣三一学院</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">爱尔兰第1，QS世界第87</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月31日</span></div>
+                            <div><span class="label">学费：</span><span class="value">€25,000/年</span></div>
+                            <div><span class="label">优势：</span><span class="value">毕业后2年工作签证</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.8+</li>
+                                <li>SAT 1400+（数学700+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>3门AP 4+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">都柏林大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">爱尔兰第2，QS世界第126</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月31日</span></div>
+                            <div><span class="label">学费：</span><span class="value">€23,000/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.6+</li>
+                                <li>SAT 1350+（数学650+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>2门AP 4+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">次选国家：英国（需要高SAT）</h3>
+                <div class="school-grid">
+                    <div class="school-card">
+                        <div class="school-name">帝国理工学院</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">生物医学工程英国第1，QS世界第2</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日（UCAS）</span></div>
+                            <div><span class="label">学费：</span><span class="value">£40,000+/年</span></div>
+                            <div><span class="label">录取率：</span><span class="value"><15%</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.9+</li>
+                                <li>SAT 1540+（数学800）</li>
+                                <li>雅思7.0（6.5）</li>
+                                <li>5门AP 5分</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">伦敦大学学院</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">英国前5，QS世界第9</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日（UCAS）</span></div>
+                            <div><span class="label">学费：</span><span class="value">£40,000+/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.8+</li>
+                                <li>SAT 1470+（数学750+）</li>
+                                <li>雅思7.0（6.5）</li>
+                                <li>4门AP 4-5分</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">爱丁堡大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">英国前10，QS世界第22</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日（UCAS）</span></div>
+                            <div><span class="label">学费：</span><span class="value">£28,000/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.7+</li>
+                                <li>SAT 1400+（数学700+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>3门AP 4+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">曼彻斯特大学</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">英国前15，世界第28</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年1月15日（UCAS）</span></div>
+                            <div><span class="label">学费：</span><span class="value">£26,000/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.6+</li>
+                                <li>SAT 1350+（数学650+）</li>
+                                <li>雅思6.5（6.0）</li>
+                                <li>3门AP 4+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">次选国家：瑞士（薪资最高，要求极高）</h3>
+                <div class="school-grid">
+                    <div class="school-card">
+                        <div class="school-name">苏黎世联邦理工学院</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">世界前3，欧洲第1</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年2月28日</span></div>
+                            <div><span class="label">学费：</span><span class="value">CHF 1,460/年</span></div>
+                            <div><span class="label">录取率：</span><span class="value"><8%</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.9+</li>
+                                <li>SAT 1550+（数学800）</li>
+                                <li>雅思7.0（6.5）</li>
+                                <li>6门AP 5分</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="school-card">
+                        <div class="school-name">洛桑联邦理工学院</div>
+                        <div class="school-info">
+                            <div><span class="label">排名：</span><span class="value">世界前10，欧洲第5</span></div>
+                            <div><span class="label">申请截止：</span><span class="value">2027年2月28日</span></div>
+                            <div><span class="label">学费：</span><span class="value">CHF 1,266/年</span></div>
+                        </div>
+                        <div class="requirements">
+                            <h5>录取要求：</h5>
+                            <ul>
+                                <li>GPA 3.8+</li>
+                                <li>SAT 1500+（数学780+）</li>
+                                <li>雅思7.0（6.5）</li>
+                                <li>5门AP 4-5分</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">五、申请策略建议</h2>
+            
+            <div class="card">
+                <h3 class="card-title">基于SAT成绩的申请策略</h3>
+                
+                <div class="strategy-section">
+                    <div class="strategy-title">如果SAT达到1550+</div>
+                    <div class="score-range">
+                        <div class="school-tier">
+                            <div class="tier-label">冲刺学校：</div>
+                            <div class="tier-schools">帝国理工、UCL、ETH Zurich</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">目标学校：</div>
+                            <div class="tier-schools">都柏林圣三一、代尔夫特理工、EPFL</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">保底学校：</div>
+                            <div class="tier-schools">埃因霍温理工、都柏林大学</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">如果SAT达到1450-1549</div>
+                    <div class="score-range">
+                        <div class="school-tier">
+                            <div class="tier-label">冲刺学校：</div>
+                            <div class="tier-schools">UCL、爱丁堡大学、都柏林圣三一</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">目标学校：</div>
+                            <div class="tier-schools">代尔夫特理工、都柏林大学、曼彻斯特大学</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">保底学校：</div>
+                            <div class="tier-schools">埃因霍温理工、科克大学、阿姆斯特丹大学</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">如果SAT达到1350-1449</div>
+                    <div class="score-range">
+                        <div class="school-tier">
+                            <div class="tier-label">冲刺学校：</div>
+                            <div class="tier-schools">爱丁堡大学、曼彻斯特大学</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">目标学校：</div>
+                            <div class="tier-schools">都柏林大学、代尔夫特理工、科克大学</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">保底学校：</div>
+                            <div class="tier-schools">埃因霍温理工、都柏林城市大学、乌得勒支大学</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-section">
+                    <div class="strategy-title">如果SAT低于1350</div>
+                    <div class="score-range">
+                        <div class="school-tier">
+                            <div class="tier-label">重点申请荷兰学校（不需要SAT）</div>
+                            <div class="tier-schools"></div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">目标学校：</div>
+                            <div class="tier-schools">代尔夫特理工、埃因霍温理工、阿姆斯特丹大学</div>
+                        </div>
+                        <div class="school-tier">
+                            <div class="tier-label">保底学校：</div>
+                            <div class="tier-schools">乌得勒支大学</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">六、申请材料清单</h2>
+            
+            <div class="checklist">
+                <h3 class="card-title">基础申请材料（所有学校通用）</h3>
+                <div class="checklist-grid">
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>北京人大附中东坝国际部官方成绩单（中英文）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>学校简介（School Profile）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>AP成绩单（2026年5月考试结果）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>高中毕业证书（2026年6月获得）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>教师推荐信（2-3封，理科老师优先）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>雅思成绩单（目标7.0-7.5分）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>SAT成绩单（目标1400-1550分）</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>个人陈述/动机信</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>个人简历</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>课外活动清单</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>实习/科研经历证明</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>护照复印件</span>
+                    </div>
+                    <div class="checklist-item">
+                        <div class="checkbox" onclick="toggleCheck(this)"></div>
+                        <span>资金证明（银行存款证明）</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="summary">
+            <div class="summary-content">
+                <h3>总结建议</h3>
+                <p>
+                    张传熙同学目前的基础良好，但<span class="highlight">SAT从零开始学习是最大挑战</span>。建议优先保证荷兰学校申请（不需要SAT，性价比高），
+                    <span class="highlight">全力冲刺SAT 1400+</span>以确保爱尔兰和英国学校选择，<span class="highlight">GPA必须提升到3.9+</span>才能冲击顶尖学校，
+                    <span class="highlight">雅思提升到7.0+</span>增加竞争优势，AP争取4-5分特别是理科AP。
+                    <br><br>
+                    通过18个月的系统准备，完全有机会达到理想目标。建议重点关注<span class="highlight">都柏林圣三一学院、阿姆斯特丹大学</span>作为主要目标，
+                    同时冲刺<span class="highlight">代尔夫特理工大学</span>。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 滚动进度条
+        window.addEventListener('scroll', function() {
+            const scrollProgress = document.getElementById('scrollProgress');
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const progress = (scrollTop / scrollHeight) * 100;
+            scrollProgress.style.width = progress + '%
+        });
+
+        // 复选框切换功能
+        function toggleCheck(checkbox) {
+            checkbox.classList.toggle('checked');
+        }
+
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 卡片悬停效果增强
+        document.querySelectorAll('.card, .school-card, .timeline-item').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px) scale(1.02)';
+                this.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // 动态背景粒子效果
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.style.position = 'fixed';
+            particle.style.width = Math.random() * 4 + 1 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.background = `rgba(79, 172, 254, ${Math.random() * 0.3 + 0.1})`;
+            particle.style.borderRadius = '50%';
+            particle.style.pointerEvents = 'none';
+            particle.style.zIndex = '1';
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = window.innerHeight + 'px';
+            
+            document.body.appendChild(particle);
+            
+            const animation = particle.animate([
+                {
+                    transform: 'translateY(0px) rotate(0deg)',
+                    opacity: 0
+                },
+                {
+                    transform: `translateY(-${window.innerHeight + 100}px) rotate(360deg)`,
+                    opacity: 1
+                },
+                {
+                    transform: `translateY(-${window.innerHeight + 200}px) rotate(720deg)`,
+                    opacity: 0
+                }
+            ], {
+                duration: Math.random() * 3000 + 2000,
+                easing: 'linear'
+            });
+            
+            animation.addEventListener('finish', () => {
+                particle.remove();
+            });
+        }
+
+        // 定期创建粒子
+        setInterval(createParticle, 300);
+
+        // 页面加载动画
+        window.addEventListener('load', function() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach((section, index) => {
+                setTimeout(() => {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+
+        // 初始化页面元素
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为所有section添加初始样式
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                section.style.transition = 'all 0.8s ease-out';
+            });
+
+            // Intersection Observer for animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+            // 时间线动画
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            const timelineObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateX(0)';
+                        }, index * 100);
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            timelineItems.forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateX(-30px)';
+                item.style.transition = 'all 0.6s ease-out';
+                timelineObserver.observe(item);
+            });
+
+            // 学校卡片动画
+            const schoolCards = document.querySelectorAll('.school-card');
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0) scale(1)';
+                        }, index * 150);
+                    }
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            schoolCards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px) scale(0.95)';
+                card.style.transition = 'all 0.7s ease-out';
+                cardObserver.observe(card);
+            });
+        });
+
+        // 键盘导航支持
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+                e.preventDefault();
+                window.scrollBy({
+                    top: window.innerHeight * 0.8,
+                    behavior: 'smooth'
+                });
+            } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+                e.preventDefault();
+                window.scrollBy({
+                    top: -window.innerHeight * 0.8,
+                    behavior: 'smooth'
+                });
+            } else if (e.key === 'Home') {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                window.scrollTo({
+                    top: document.documentElement.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+        });
+
+        // 响应式字体大小调整
+        function adjustFontSize() {
+            const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+            const root = document.documentElement;
+            
+            if (vw < 768) {
+                root.style.fontSize = '14px';
+            } else if (vw < 1024) {
+                root.style.fontSize = '15px';
+            } else {
+                root.style.fontSize = '16px';
+            }
+        }
+
+        window.addEventListener('resize', adjustFontSize);
+        adjustFontSize(); // 初始调用
+
+        // 打印样式优化
+        window.addEventListener('beforeprint', function() {
+            document.body.style.background = 'white';
+            document.body.style.color = 'black';
+            
+            const cards = document.querySelectorAll('.card, .school-card, .timeline-item');
+            cards.forEach(card => {
+                card.style.background = 'white';
+                card.style.border = '1px solid #ccc';
+                card.style.boxShadow = 'none';
+            });
+        });
+
+        window.addEventListener('afterprint', function() {
+            location.reload(); // 恢复原始样式
+        });
+
+        // 性能优化：防抖滚动处理
+        let scrollTimeout;
+        window.addEventListener('scroll', function() {
+            if (scrollTimeout) {
+                clearTimeout(scrollTimeout);
+            }
+            
+            scrollTimeout = setTimeout(function() {
+                // 滚动结束后的处理
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                if (scrollTop > 100) {
+                    document.body.classList.add('scrolled');
+                } else {
+                    document.body.classList.remove('scrolled');
+                }
+            }, 100);
+        });
+
+        // 错误处理
+        window.addEventListener('error', function(e) {
+            console.error('页面错误:', e.error);
+        });
+
+        // 页面可见性API - 暂停动画当页面不可见时
+        document.addEventListener('visibilitychange', function() {
+            const animations = document.querySelectorAll('.background-animation');
+            if (document.hidden) {
+                animations.forEach(anim => {
+                    anim.style.animationPlayState = 'paused';
+                });
+            } else {
+                animations.forEach(anim => {
+                    anim.style.animationPlayState = 'running';
+                });
+            }
+        });
+
+        // 添加复制功能
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                // 显示复制成功提示
+                const toast = document.createElement('div');
+                toast.textContent = '已复制到剪贴板';
+                toast.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: var(--success-gradient);
+                    color: white;
+                    padding: 12px 24px;
+                    border-radius: 8px;
+                    z-index: 10000;
+                    font-weight: 500;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    animation: slideInRight 0.3s ease-out;
+                `;
+                
+                document.body.appendChild(toast);
+                
+                setTimeout(() => {
+                    toast.remove();
+                }, 2000);
+            });
+        }
+
+        // 添加滑入动画
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            .scrolled .header {
+                transform: translateY(-10px);
+                opacity: 0.95;
+            }
+            
+            @media print {
+                .background-animation,
+                .scroll-indicator {
+                    display: none !important;
+                }
+                
+                .card, .school-card, .timeline-item {
+                    break-inside: avoid;
+                    page-break-inside: avoid;
+                }
+                
+                .section {
+                    page-break-before: auto;
+                }
+                
+                .section-title {
+                    page-break-after: avoid;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        console.log('🎓 张传熙生物医学工程留学规划系统已加载完成');
+        console.log('📚 包含完整的时间规划、学校信息和申请策略');
+        console.log('🚀 祝愿申请顺利，前程似锦！');
+    </script>
+</body>
+</html>
+
